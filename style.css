@@ -1,0 +1,17 @@
+body{
+    background-image:url('images/back2.jpg');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+ 	background-size: cover;
+  	background-position: center;
+	}
+.loginform{
+	margin-left: 22%;
+	margin-top: 13%;
+	display: inline-block;
+	height: 15%!important;
+	width: 25%!important; 
+}
+.font1{
+		font-family: 'Pangolin', cursive;
+}
