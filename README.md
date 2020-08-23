@@ -1,4 +1,5 @@
 # Not-Tomorrow
+<br>
 A basic to-do list management webapp that help you to manage all your to-dos.
 Sign Up and start adding your tasks.
 <br>
@@ -12,7 +13,9 @@ To clear the task which is done from the to-do list, click on the clear button p
 Active username is visible in to-do list block at right-topmost position.
 <p><img src="readme_images/signup.png" width=49% height=50%/>&nbsp &nbsp <img src="readme_images/signin.png" width=48% height=50%/></p>
 
-###
+## Brief Description
+Front-End is made using HTML,Bootstarp and CSS.PHP has been used as server side language along with MYSQL as database.
+
 
 
 
