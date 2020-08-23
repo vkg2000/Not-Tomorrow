@@ -2,7 +2,7 @@
 A basic to-do list management webapp that help you to manage all your to-dos.
 Sign Up and start adding your tasks.
 <br>
-<p><img src="readme_images/signup.png" width=50% height=50%/>&nbsp &nbsp <img src="readme_images/signin.png" width=49% height=50%/></p>
+<p><img src="readme_images/signup.png" width=49% height=50%/>&nbsp &nbsp <img src="readme_images/signin.png" width=48% height=50%/></p>
 
 
 
