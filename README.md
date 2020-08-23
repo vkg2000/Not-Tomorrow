@@ -1,5 +1,4 @@
 # Not-Tomorrow
-<br>
 A basic to-do list management webapp that help you to manage all your to-dos.
 Sign Up and start adding your tasks.
 <br>
