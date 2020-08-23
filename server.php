@@ -43,7 +43,6 @@ if($rs=mysqli_query($db,$user_qry) and count($errors)==0)
 
 //registering the user
 if(count($errors)==0){
-	$password=md5($password,1); //for encrypting the password
 	$qry="INSERT INTO users (username, email, password) VALUES ('$username','$email','$password')";
 	$qry_table = "CREATE TABLE `todo`.`".$username."` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `work` VARCHAR(400) NOT NULL , `done` BOOLEAN NOT NULL DEFAULT FALSE , PRIMARY KEY (`id`)) ENGINE = InnoDB;";
 	mysqli_query($db,$qry_table);
@@ -68,7 +67,6 @@ if(isset($_POST['signin'])){
 	if(empty($password)){array_push($errors, "Password is Required");}
 
 	if(count($errors)==0){
-		$password=md5($password,1);
 		$qry="SELECT *FROM users WHERE username='$username' AND password='$password' LIMIT 1";
 		$rs=mysqli_query($db,$qry);
 		if(mysqli_num_rows($rs)){
