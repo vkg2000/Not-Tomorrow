@@ -16,12 +16,6 @@ Active username is visible in to-do list block at right-topmost position.
 Front-End is made using HTML,Bootstarp and CSS.PHP has been used as server side language along with MYSQL as database.
 
 
-
-
-#### License
-
-This project is licensed under the MIT License
-
 #### Acknowledgment
 
  Huge thanks to the awesome StackOverflow Community
