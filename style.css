@@ -1,0 +1,59 @@
+body{
+    
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+ 	background-size: cover;
+  	background-position: center;
+	}
+.loginform{
+	margin-top: 10%;
+	display: inline-block;
+	height: 15%!important;
+	width: 25%!important; 
+}
+.font1{
+		font-family: 'Pangolin', cursive;
+}
+
+.signupform{
+	margin-top: 10%;
+	display: inline-block;
+	height: 15%!important;
+	width: 34%!important; 
+}
+
+.list-group{
+	
+	margin: auto;
+	margin-top: 50px;
+	width: 60%;
+}
+
+.todohead{
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
+}
+
+.boxbutton{
+	float: right;
+	padding: 0;
+	border: none;
+	background: none;
+	margin-left: 20px;
+
+}
+
+.work{
+	margin: 0;
+}
+
+
+.item-done{
+	text-decoration: line-through;
+}
+
+.userinbox{
+	float: right;
+	font-size: 80%;
+	margin-top: 5px;
+}
